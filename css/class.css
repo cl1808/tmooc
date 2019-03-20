@@ -1,0 +1,124 @@
+body.bgcolor{
+  background:#F4F3F8;
+}
+.container_box .img_box img{
+  margin-top:30px;
+  border-radius: 5px;
+}
+.container_box .content_box{
+  background: #fff;
+  border-radius:5px;
+  margin-top: 30px;
+  padding:10px 100px;
+}
+.container_box .content_box .job{
+  padding:30px 0;
+}
+.container_box .content_box .job img{
+  width:22px;
+  height:22px;
+  position: relative;
+  top:3px;
+}
+.container_box .content_box .job span{
+  font-size:20px;
+  color:#1A1A1A;
+  line-height: 0;
+}
+.container_box .content_box .img_item{
+  width:185px;
+  height:164px;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.container_box .content_box .java{
+  background: url("../img/class/fangxiang2.png") no-repeat;
+  
+}
+.content_box .img_list{
+  margin-bottom: 60px;
+}
+.content_box .img_list .text_box{
+  width:750px;
+  position: relative;
+}
+.content_box .img_list .text_box h3{
+  font-size:16px;
+  color:#333;
+  padding-right: 100px;
+  margin-bottom:15px;
+  font-weight: bold;
+}
+.content_box .img_list .text_box>a{
+  background:#4f8dfe;
+  position: absolute;
+  top:0;
+  right:0;
+  padding:2px 8px;
+  border-radius: 3px;
+  color:#fff;
+  font-size:14px;
+}
+.content_box .img_list .text_box>p{
+  font-size:14px;
+  color:#666;
+  line-height: 22px;
+}
+.container_box .content_box .UID{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -173px;
+}
+.container_box .content_box .account{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -345px;
+}
+.container_box .content_box .c{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -518px;
+}
+.container_box .content_box .android{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -689px;
+}
+.container_box .content_box .net{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -861px;
+}
+.container_box .content_box .ios{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -1033px;
+}
+.container_box .content_box .php{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -1204px;
+}
+.container_box .content_box .Flushbonading{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -1378px;
+}
+.container_box .content_box .test{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -1549px;
+}
+.container_box .content_box .linux{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -1721px;
+}
+.container_box .content_box .market{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -1893px;
+}
+.container_box .content_box .unity{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -2065px;
+}
+.container_box .content_box .web{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -2237px;
+}
+.container_box .content_box .UI{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -2408px;
+}
+.container_box .content_box .data{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -2579px;
+}
+.container_box .content_box .UCD{
+  background: url("../img/class/fangxiang2.png") no-repeat 0 -2750px;
+}
+.container_box .content_box .AID{
+  background: url("../img/class/AID-ICON.png") no-repeat;
+}
+.container_box .content_box .CGB{
+  background: url("../img/class/icon2018070614lty.png") no-repeat;
+}
+.nav .middle .fl:nth-child(7) a{
+  color:#4F8DFE;
+}

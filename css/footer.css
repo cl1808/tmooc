@@ -1,0 +1,28 @@
+.footer_box{
+  height:197px;
+  background: #282c30;
+}
+.footer_box .content ul li{
+  padding-top: 66px;
+  padding-right: 28px;
+  margin-bottom: 8px;
+}
+.footer_box .content ul li,a{
+  color:#999;
+  font-size: 14px;
+}
+.footer_box .content ul a:hover{
+  color:#fff;
+}
+.footer_box .content p{
+  color:#666;
+  font-size: 12px;
+}
+.fr div img{
+  width:75px;
+  height:75px;
+}
+.footer_box .content .line{
+  border-top:1px solid #3D3E3F;
+  clear: both;
+}

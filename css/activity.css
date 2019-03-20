@@ -1,0 +1,58 @@
+body.bgcolor{
+  background:#F4F3F8;
+}
+.activity_box{
+  padding:25px 0;
+}
+.activity_box .activity_left .activity_list{
+  width:882px;
+  background: #fff;
+  text-align: left;
+  padding:20px 40px 50px 40px;
+}
+.activity_box .activity_left .activity_list .activity_item{
+  padding:27px 0;
+  border-bottom:1px dashed #ddd;
+}
+.activity_box .activity_left .activity_list .activity_item a:first-child{
+  font-size:18px;
+  color:#000;
+  font-weight:bold;
+}
+.activity_box .activity_left .activity_list .activity_item>img{
+  width:802px;
+  height:275px;
+  margin:20px 0;
+}
+.activity_box .activity_list .activity_left .activity_item a:last-child{
+  font-size:14px;
+  color:#666;
+}
+.activity_box .activity_right{
+  width:298px;
+  background: #fff;
+  padding:30px 53px;
+  margin-bottom:20px;
+  text-align: center;
+}
+.activity_box .activity_right>a{
+  display: block;
+  padding:8px 50px;
+  background: #4B95FF;
+  border-radius: 20px;
+  color:#fff;
+  font-size:18px;
+  margin-bottom:30px;
+}
+.activity_box .activity_right>img{
+  width:180px;
+  height:180px;
+}
+.activity_box .activity_right>p{
+  color:#000;
+  font-size:14px;
+  margin-top:10px;
+} 
+.nav .middle .fl:last-child a{
+  color:#4F8DFE;
+}

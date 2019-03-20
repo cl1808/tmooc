@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/header.css"/>
+</head>
+<body>
+  <!-- 头部-->
+  <header>
+    <!-- 顶部导航栏-->
+    <div class="nav_box w">
+      <div class="nav w1 clearfix">
+        <div class="logo fl">
+          <a href="javascript:void(0);">
+            <img src="img/header/tmooc-logo2.png" alt=""/>
+          </a>
+        </div>
+        <ul class="middle clearfix fl">
+          <li class="fl"><a href="index.html">首页</a></li>
+          <li class="fl"><a href="free.html">免费课</a></li>
+          <li class="fl"><a href="live.html">直播课</a></li>
+          <li class="fl"><a href="vip.html">会员课</a></li>
+          <li class="fl"><a href="you.html">培优课</a></li>
+          <li class="fl"><a href="vipClass.html">线上班(VIP)</a></li>
+          <li class="fl"><a href="class.html">线下班</a></li>
+          <li class="fl"><a href="activity.html">最新活动</a></li>
+        </ul>
+        <div class="fl search clearfix">
+          <div class="s_area">
+            <input type="text" placeholder="您想学的课程"/>
+          </div>
+          <div class="s_icon">
+            <img src="img/header/fdj.png" alt=""/>
+          </div>
+        </div>
+        <ul class="ul_reg fr clearfix">
+          <li class="fl"><a href="sign.html">注册</a></li>
+          <li class="fl">|</li>
+          <li class="fl"><a href="javascript:void(0);">登录</a></li>
+        </ul>
+      </div>
+    </div>
+     <!--登录框-->
+    <div class="log1" style="display:none"></div>
+    <div class="login_box" style="display:none">
+      <div class="log">
+        <p class="close">×</p>
+        <div class="tit">登录</div>
+        <form action="">
+          <input type="text" name="username" placeholder="邮箱或手机号"/>
+          <span class="test1" style="display: none">邮箱或手机号格式错误</span>
+          <input type="password" name="pwd" placeholder="密码"/>
+          <span class="test2" style="display: none">包含数字、字母、下划线的6-18位</span>
+          <input type="button" class="btn" value="登录">
+        </form>
+        <div class="register clearfix">
+          <div class="fr">
+            <a href="javascript:void(0);">忘记密码</a>
+            <span>|</span>
+            <a href="javascript:void(0);">注册</a>
+          </div>
+        </div>
+        <div class="other">
+          <p>第三方账号登录</p>
+          <div class="w-btns clearfix">
+            <div class="w-btn fl"></div>
+            <a href="javascript:void(0);" class="wx fl"></a>
+            <div class="w-btn fl"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <script src="js/login.js"></script>
+  <script src="js/vali.js"></script>
+</body>
+</html>

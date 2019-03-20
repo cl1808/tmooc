@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/index.css"/>
+  <script src="js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<!-- 头部-->
+<header>
+    <!-- 顶部导航栏-->
+    <div class="nav_box w">
+      <div class="nav w1 clearfix">
+        <div class="logo fl">
+          <a href="">
+            <img src="img/header/tmooc-logo.png" alt=""/>
+          </a>
+        </div>
+        <ul class="middle clearfix fl">
+          <li class="fl"><a href="index.html">首页</a></li>
+          <li class="fl"><a href="free.html">免费课</a></li>
+          <li class="fl"><a href="live.html">直播课</a></li>
+          <li class="fl"><a href="vip.html">会员课</a></li>
+          <li class="fl"><a href="you.html">培优课</a></li>
+          <li class="fl"><a href="vipClass.html">线上班(VIP)</a></li>
+          <li class="fl"><a href="class.html">线下班</a></li>
+          <li class="fl"><a href="activity.html">最新活动</a></li>
+        </ul>
+        <div class="fl search clearfix">
+          <div class="s_area">
+            <input type="text" placeholder="您想学的课程"/>
+          </div>
+          <div class="s_icon">
+            <img src="img/header/fangdajing.png" alt=""/>
+          </div>
+        </div>
+        <ul class="ul_reg fr clearfix">
+          <li class="fl"><a href="sign.html">注册</a></li>
+          <li class="fl">|</li>
+          <li class="fl"><a href="javascript:void(0);">登录</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--登录框-->
+    <div class="log1" style="display:none"></div>
+    <div class="login_box" style="display:none">
+      <div class="log">
+        <p class="close">×</p>
+        <div class="tit">登录</div>
+        <form action="">
+          <input type="text" name="username" placeholder="邮箱或手机号"/>
+          <span class="test1" style="display: none">邮箱或手机号格式错误</span>
+          <input type="password" name="pwd" placeholder="密码"/>
+          <span class="test2" style="display: none">包含数字、字母、下划线的6-18位</span>
+          <input type="button" class="btn" value="登录">
+        </form>
+        <div class="register clearfix">
+          <div class="fr">
+            <a href="javascript:void(0);">忘记密码</a>
+            <span>|</span>
+            <a href="javascript:void(0);">注册</a>
+          </div>
+        </div>
+        <div class="other">
+          <p>第三方账号登录</p>
+          <div class="w-btns clearfix">
+            <div class="w-btn fl"></div>
+            <a href="javascript:void(0);" class="wx fl"></a>
+            <div class="w-btn fl"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<div class="container">
+  <!-- 轮播-->
+  <div class="banner_box w1 clearfix">
+    <!-- 左边侧边栏-->
+    <div class="l_slide fl">
+      <ul>
+        <li class="clearfix">
+          <a href="javascript:void(0);">前端/后端开发</a>
+          <img src="img/index/right.png" alt=""/>
+          <div class="item">
+            <div class="clearfix opt">
+              <div class="fl">前端开发</div>
+              <p class="course">Web前端</p>
+            </div>
+            <div class="line1"></div>
+            <div class="clearfix opt">
+              <div class="fl">后端开发</div>
+              <p class="fl course">C#/.Net</p>
+              <p class="fl course">C/C++</p>
+              <p class="fl course">Java</p>
+              <p class="fl course">PHP</p>
+              <p class="fl course">Python</p>
+            </div>
+            <div class="line2"></div>
+            <div class="clearfix">
+              <div class="fl pic clearfix">
+                <img src="img/index/E40E6AF3C0CA44309FB4C1CDF09C4590.png" alt=""/>
+                <h3 class="fl">java五天快速入门攻略（限时免费）</h3>
+                <p>【不要159！点击课程简介扫码免...</p>
+              </div>
+              <div class="fl pic clearfix">
+                <img src="img/index/58CB793D675F4C35B4DC1252873F693B.png" alt=""/>
+                <h3 class="fl">JAVA入门之面向对象</h3>
+                <p>面向对象</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="clearfix">
+          <a href="javascript:void(0);">大数据/云计算</a>
+          <img src="img/index/right.png" alt=""/>
+          <div class="item">
+            <div class="clearfix opt">
+              <div class="fl">大数据</div>
+              <p class="course">大数据</p>
+            </div>
+            <div class="line1"></div>
+            <div class="clearfix opt">
+              <div class="fl">云计算</div>
+              <p class="course">linux云计算</p>
+            </div>
+            <div class="line2"></div>
+            <div class="clearfix">
+              <div class="fl pic clearfix">
+                <img src="img/index/010AB1B28060446D8103BE4B5EBEEAFA.png" alt=""/>
+                <h3 class="fl">Linux云计算之Shell脚本编程</h3>
+                <p>Linux云计算之Shell脚本编程</p>
+              </div>
+              <div class="fl pic clearfix">
+                <img src="img/index/AA06FD15E6AB46BCB9348CCF301907B6.jpg" alt=""/>
+                <h3 class="fl">HADOOP</h3>
+                <p>HADOOP</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="clearfix">
+          <a href="javascript:void(0);">移动开发/游戏</a>
+          <img src="img/index/right.png" alt=""/>
+          <div class="item">
+            <div class="clearfix opt">
+              <div class="fl">移动开发</div>
+              <p>
+                <span>Android</span>
+                <span>iOS</span>
+              </p>
+            </div>
+            <div class="line1"></div>
+            <div class="clearfix opt">
+              <div class="fl">游戏</div>
+              <p class="course">Unity3D</p>
+            </div>
+            <div class="line2"></div>
+            <div class="clearfix">
+              <div class="fl pic clearfix">
+                <img src="img/index/486CFA775C7244D49E6E0D550C31A6E8.png" alt=""/>
+                <h3 class="fl">Unity3D入门之脚本开发</h3>
+                <p>Unity3D入门之脚本开发</p>
+              </div>
+              <div class="fl pic clearfix">
+                <img src="img/index/69980B7CC2634E61870DFE605C3A6C85.png" alt=""/>
+                <h3 class="fl">Android之网络通信</h3>
+                <p>Android之网络通信</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="clearfix">
+          <a href="javascript:void(0);">物联网/测试</a>
+          <img src="img/index/right.png" alt=""/>
+          <div class="item">
+            <div class="clearfix opt">
+              <div class="fl">物联网</div>
+              <p class="course">嵌入式</p>
+            </div>
+            <div class="line1"></div>
+            <div class="clearfix opt">
+              <div class="fl">测试</div>
+              <p class="course">软件测试</p>
+            </div>
+            <div class="line2"></div>
+            <div class="clearfix">
+              <div class="fl pic clearfix">
+                <img src="img/index/AF73F4970A64405295A768B17AE58F04.png" alt=""/>
+                <h3 class="fl">嵌入式之开发实战</h3>
+                <p>开发实战</p>
+              </div>
+              <div class="fl pic clearfix">
+                <img src="img/index/EE0DE5C881684542B3D0875CF97CAA5D.png" alt=""/>
+                <h3 class="fl">设计测试用例的方法</h3>
+                <p>设计测试用例的方法</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="clearfix">
+          <a href="javascript:void(0);">营销/产品/运营</a>
+          <img src="img/index/right.png" alt=""/>
+          <div class="item">
+            <div class="clearfix opt">
+              <div class="fl">营销</div>
+              <p class="course">网络营销</p>
+            </div>
+            <div class="line1"></div>
+            <div class="clearfix opt">
+              <div class="fl">产品</div>
+              <p class="course">产品经理</p>
+            </div>
+            <div class="line1"></div>
+            <div class="clearfix opt">
+              <div class="fl">运营</div>
+              <p class="course">高级电商</p>
+            </div>
+            <div class="line3"></div>
+            <div class="clearfix">
+              <div class="fl pic clearfix">
+                <img src="img/index/37FACE09F5404EDA95E9D0F4D76668D0.png" alt=""/>
+                <h3 class="fl">一周上手小程序</h3>
+                <p>本系列课程抓住了小程序开发的要...</p>
+              </div>
+              <div class="fl pic clearfix">
+                <img src="img/index/CC18466FADF74D3A87FDA5A17AAF4D83.png" alt=""/>
+                <h3 class="fl">SEM搜索引擎营销</h3>
+                <p>SEM搜索引擎营销</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="clearfix">
+          <a href="javascript:void(0);">数字艺术</a>
+          <img src="img/index/right.png" alt=""/>
+          <div class="item">
+            <div class="clearfix opt">
+              <div class="fl">数字艺术</div>
+              <p>
+                <span>UED设计</span>
+                <span>UID设计</span>
+              </p>
+            </div>
+            <div class="line4"></div>
+            <div class="clearfix">
+              <div class="fl pic clearfix">
+                <img src="img/index/A39738762E2741B2892D358B5C6500C1.jpg" alt=""/>
+                <h3 class="fl">达内在线商业插画培优课-1810期</h3>
+                <p>208课时的核心技能特训,专为UI...</p>
+              </div>
+              <div class="fl pic clearfix">
+                <img src="img/index/EB5C62329A164590BF33AEDF6C36F379.png" alt=""/>
+                <h3 class="fl">前端交互设计(UI Design)</h3>
+                <p>前端交互设计(UI Design)</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="clearfix">
+          <a href="javascript:void(0);">其他职业课程</a>
+          <img src="img/index/right.png" alt=""/>
+          <div class="item">
+            <div class="clearfix opt">
+              <div class="fl">其他职业课程</div>
+              <p>
+                <span>网络运维</span>
+                <span>ACC</span>
+                <span>就业指导</span>
+              </p>
+            </div>
+            <div class="line4"></div>
+            <div class="clearfix">
+              <div class="fl pic clearfix">
+                <img src="img/index/960064710D2E43FFB4ED18FB70ED5802.png" alt=""/>
+                <h3 class="fl">ACC之新秀会计</h3>
+                <p>新秀会计</p>
+              </div>
+              <div class="fl pic clearfix">
+                <img src="img/index/72EE6850E7D042198D4DC1FDD9F9A60C.png" alt=""/>
+                <h3 class="fl">就业辅导之精准简历制作</h3>
+                <p>就业辅导之精准简历制作</p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--中间轮播图-->
+    <div class="img fr" id="slider">
+      <img src="img/index/531585F978164BDF845FE5A27361EBBB.png" class="show" alt=""/>
+      <img src="img/index/B6AB6D014BAC40F1A354CB661BFD9EDE.png" alt=""/>
+      <img src="img/index/B2371291A7CF432DBAE99F5AB6B6E903.png" alt=""/>
+      <img src="img/index/2A3507B0F16646F4A03278D2DE73F7F2.png" alt=""/>
+    </div>
+    <!-- 轮播图下广告-->
+    <ul class="list fl clearfix">
+      <li class="clearfix fl">
+        <img src="img/index/E96B1941956543B7B3D86FE98F77EA2F.png" alt="" class="fl"/>
+        <h3 class="fl">加入会员</h3>
+        <p class="fl">尊享超值会员权益</p>
+      </li>
+      <li class="clearfix fl">
+        <img src="img/index/3432BC7ACD854AEE9744FA2A0E6BE940.png" alt="" class="fl"/>
+        <h3 class="fl">手机绑定</h3>
+        <p class="fl">获得资料下载权限</p>
+      </li>
+      <li class="clearfix fl">
+        <img src="img/index/3AE7ED861379427BAC9E3ED1204E35ED.png" alt="" class="fl"/>
+        <h3 class="fl">表单报名</h3>
+        <p class="fl">获赠平安就业险</p>
+      </li>
+      <li class="clearfix fl">
+        <img src="img/index/2E9FE243D74D43FFBF025E2F417C3E2F.png" alt="" class="fl"/>
+        <h3 class="fl">帮助页面</h3>
+        <p class="fl">带你玩转TMOOC</p>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="lesson w">
+  <!-- 直播课-->
+  <div class="liveLesson w1">
+    <div class="list mb10">
+      <img src="img/index/live-lesson.png" alt=""/>
+      <span>直播课</span>
+      <a href="javascript:void(0);">查看更多>></a>
+    </div>
+    <ul class="clearfix mb20">
+      <li class="img-list live">
+        <div>
+          <img src="img/index/FE366DE898C246BF9BEB5ED290CA2F01.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>Python趣味项目实操课（已结束）</p>
+          <div class="clearfix">
+            <span class="fl free">免费</span>
+            <span class="fr">3,234人报名</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list live">
+        <div>
+          <img src="img/index/3BB2D0A3FC814FD0971D63E66652E68C.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>玩转java已结束推荐观看java五天快速入门攻略</p>
+          <div class="clearfix">
+            <span class="fl price">￥99.00</span>
+            <span class="fr">525人购买</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list live">
+        <div>
+          <img src="img/index/07673F37EAD241AC9CEC34FF243FFFB0.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>java五天快速入门攻略（限时免费）</p>
+          <div class="clearfix">
+            <span class="fl price">￥159.00</span>
+            <span class="fr">163人购买</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list free">
+        <div>
+          <img src="img/index/BB60D99E5EC6429694101D8A67DB555A.jpg" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>发现杯赛项说明会（直播回看）</p>
+          <div class="clearfix">
+            <span class="fl free">免费</span>
+            <span class="fr">827人报名</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list free">
+        <div>
+          <img src="img/index/0772D15394B14D81ACD0C7FFAB477122.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>商业插画体验课—手绘Q版人物形象（回放）</p>
+          <div class="clearfix">
+            <span class="fl free">免费</span>
+            <span class="fr">2,493人报名</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- 会员课-->
+  <div class="liveLesson w1">
+    <div class="list mb10">
+      <img src="img/index/huiyuan.png" alt=""/>
+      <span>会员课</span>
+      <a href="javascript:void(0);">查看更多>></a>
+    </div>
+    <ul class="clearfix mb20">
+      <li class="img-list vip">
+        <div>
+          <img src="img/index/8D4204DFC45C40BCBF68150E442E1D18.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>商业插画零基础手绘教程</p>
+          <div class="clearfix">
+            <span class="fl price">￥599.00（会员免费）</span>
+            <span class="fr">1,774人报名</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list vip">
+        <div>
+          <img src="img/index/3BCE580FFCDB458CA3CFFAAFB12EBE92.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>AI智能系统</p>
+          <div class="clearfix">
+            <span class="fl price">￥19.00（会员免费）</span>
+            <span class="fr">895人报名</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list vip">
+        <div>
+          <img src="img/index/34F62A1A69D14F4287E0C499E60C6213.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>SEM搜索引擎营销</p>
+          <div class="clearfix">
+            <span class="fl price">￥599.00（会员免费）</span>
+            <span class="fr">1,290人报名</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list vip">
+        <div>
+          <img src="img/index/25D64D24BF544A2FB2FFD0FA328B70F0.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>PR基础特效集合</p>
+          <div class="clearfix">
+            <span class="fl price">￥1.00（会员免费）</span>
+            <span class="fr">2,075人报名</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list vip">
+        <div>
+          <img src="img/index/B6C9118E3E604AC6BDA8A8F3DB2A981B.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>一周上手小程序</p>
+          <div class="clearfix">
+            <span class="fl price">￥1.00（会员免费）</span>
+            <span class="fr">2,986人报名</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- 免费课-->
+  <div class="liveLesson w1">
+    <div class="list mb10">
+      <img src="img/index/Free-Tag.png" alt=""/>
+      <span>免费课</span>
+      <a href="javascript:void(0);">查看更多>></a>
+    </div>
+    <ul class="clearfix mb20">
+      <li class="img-list free">
+        <div>
+          <img src="img/index/6AC8CBD64A6146F7BB1C56E6A72F6F6E.jpg" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>Python开发</p>
+          <div class="clearfix">
+            <span class="fl free">免费</span>
+            <span class="fr">5,467人报名</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list free">
+        <div>
+          <img src="img/index/B08EB37C0BBE417AA74ACEC21AE1202D.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>大数据体验课</p>
+          <div class="clearfix">
+            <span class="fl free">免费</span>
+            <span class="fr">2,788人报名</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list free">
+        <div>
+          <img src="img/index/7A924FA4768745FAA4E5A2AD65FEE973.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>林妹妹说EXCEL</p>
+          <div class="clearfix">
+            <span class="fl free">免费</span>
+            <span class="fr">2,312人报名</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list free">
+        <div>
+          <img src="img/index/23B47E1BC4F9488089AA89F29461A06B.jpg" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>前端工程师提升课程：后台PHP语言学习</p>
+          <div class="clearfix">
+            <span class="fl free">免费</span>
+            <span class="fr">2,447人报名</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list free">
+        <div>
+          <img src="img/index/9525D7E969F541E89EBA3BA408E72768.png" alt=""/>
+          <i class="icon"></i>
+        </div>
+        <div class="bac-fff">
+          <p>Photoshop</p>
+          <div class="clearfix">
+            <span class="fl free">免费</span>
+            <span class="fr">9,342人报名</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- 培优课-->
+  <div class="liveLesson w1">
+    <div class="list mb10">
+      <img src="img/index/vip2.png" alt=""/>
+      <span>培优课</span>
+      <a href="javascript:void(0);">查看更多>></a>
+    </div>
+    <ul class="clearfix mb20">
+      <li class="img-list">
+        <div>
+          <img src="img/index/15A8F7AABC6247A0930F3A2B860D1DD1.jpg" alt=""/>
+        </div>
+        <div class="bac-fff">
+          <p>商业插画培优课1812期</p>
+          <div class="clearfix">
+            <span class="fl price">￥9800.00</span>
+            <span class="fr">521人购买</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list">
+        <div>
+          <img src="img/index/4B687E4EC14343DCBA86637A18BD184D.jpg" alt=""/>
+        </div>
+        <div class="bac-fff">
+          <p>大数据培优课1812期</p>
+          <div class="clearfix">
+            <span class="fl price">￥9800.00</span>
+            <span class="fr">323人购买</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list">
+        <div>
+          <img src="img/index/BBEDBF93737A49C58D8C5CB90595A8DA.png" alt=""/>
+        </div>
+        <div class="bac-fff">
+          <p>微信小程序开发</p>
+          <div class="clearfix">
+            <span class="fl price">￥2000.00</span>
+            <span class="fr">487人购买</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list">
+        <div>
+          <img src="img/index/AA06FD15E6AB46BCB9348CCF301907B6.jpg" alt=""/>
+        </div>
+        <div class="bac-fff">
+          <p>HADOOP</p>
+          <div class="clearfix">
+            <span class="fl price">￥2000.00</span>
+            <span class="fr">324人购买</span>
+          </div>
+        </div>
+      </li>
+      <li class="img-list">
+        <div>
+          <img src="img/index/10C32FCBE92E4EF49C4E7882829F221A.png" alt=""/>
+        </div>
+        <div class="bac-fff">
+          <p>UED-交互设计</p>
+          <div class="clearfix">
+            <span class="fl price">￥2000.00</span>
+            <span class="fr">491人购买</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <!-- 就业课程图片-->
+    <div class="mt40">
+      <img src="img/index/0FEB40D436DE46FABB6F895795FC6CB3.png" alt=""/>
+    </div>
+    <!-- 我们的优势-->
+    <div class="list">
+      <img src="img/index/zan.png" alt=""/>
+      <span class="mt4">我们的优势</span>
+    </div>
+    <div class="our mt15">
+      <ul class="clearfix mb20">
+        <li class="our_box clearfix fl">
+          <div class="course fl">
+            <span>课程体系</span>
+            <ul class="mt19">
+              <li>与国际厂商共同打造IT精品课程</li>
+              <li class="mt4">22大课程体系紧跟企业需求</li>
+            </ul>
+          </div>
+          <div class="circle fr">
+            <img src="img/index/img_index_lty01.png" alt=""/>
+          </div>
+        </li>
+        <li class="our_box clearfix fl">
+          <div class="course fl">
+            <span>师资力量</span>
+            <ul class="mt19">
+              <li>总监级别名师汇聚</li>
+              <li class="mt4">实战经验倾囊相授</li>
+            </ul>
+          </div>
+          <div class="circle fr">
+            <img src="img/index/img_index_lty02.png" alt=""/>
+          </div>
+        </li>
+        <li class="our_box clearfix fl">
+          <div class="course fl">
+            <span>教学模式</span>
+            <ul class="mt19">
+              <li>特色教育教学模式</li>
+              <li class="mt4">实现高效优质学习</li>
+            </ul>
+          </div>
+          <div class="circle fr">
+            <img src="img/index/img_index_lty03.png" alt=""/>
+          </div>
+        </li>
+      </ul>
+      <ul class="clearfix">
+        <li class="our_box clearfix fl">
+          <div class="course fl">
+            <span>校友会</span>
+            <ul class="mt19">
+              <li>50万达内校友交流学习平台</li>
+              <li class="mt4">万千就业榜样带你成长起飞</li>
+            </ul>
+          </div>
+          <div class="circle fr">
+            <img src="img/index/img_index_lty04.png" alt=""/>
+          </div>
+        </li>
+        <li class="our_box clearfix fl">
+          <div class="course fl">
+            <span>集团背景</span>
+            <ul class="mt19">
+              <li>依托达内集团16年强大的教育背景</li>
+              <li class="mt4">深厚的教学资源积累及经验总结</li>
+            </ul>
+          </div>
+          <div class="circle fr">
+            <img src="img/index/img_index_lty05.png" alt=""/>
+          </div>
+        </li>
+        <li class="our_box clearfix fl">
+          <div class="fl ml10 mr40">
+            <img src="img/index/book.png" alt="" class="book"/>
+            <h3>147</h3>
+            <p>个课程</p>
+          </div>
+          <div class="fl mr40">
+            <img src="img/index/jiang.png" alt="" class="book"/>
+            <h3>91</h3>
+            <p>位讲师</p>
+          </div>
+          <div class="fl ml10">
+            <img src="img/index/tel.png" alt="" class="book"/>
+            <h3>794,865</h3>
+            <p>个用户数量</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- 最下面图片-->
+  <div class="last_pic">
+    <img src="img/index/wave-lty.png" alt=""/>
+  </div>
+</div>
+<!-- 引入脚部-->
+<div id="footer"></div>
+<script>
+  $(function(){
+    $("#footer").load("footer.html")
+  });
+</script>
+<script>
+  function task() {
+    //1.查找class为show的img
+    var img = slider.getElementsByClassName("show")[0];
+    //2.清空img的class
+    img.className = "";
+    //3.如果img有下一个兄弟
+    if (img.nextElementSibling) {
+      //4.就让下一个兄弟class为show
+      img.nextElementSibling.className = "show";
+    } else {//5.否则就设置父元素第一个孩子为show
+      img.parentNode.children[0].className = "show";
+    }
+  }
+  var timer=setInterval(task,3000);
+  slider.onmouseover=function(){
+    clearInterval(timer);
+  };
+  slider.onmouseout=function(){
+    timer=setInterval(task,3000);
+  }
+</script>
+<script src="js/login.js"></script>
+<script src="js/vali.js"></script>
+</body>
+</html>

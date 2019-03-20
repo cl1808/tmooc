@@ -1,0 +1,17 @@
+/*vip课*/
+.lesson{
+  background: #F6F5FA;
+  padding-bottom: 20px;
+}
+.lesson_img {
+  width: 100%;
+  height:200px;
+}
+.lesson_img div{
+  height:100%;
+  background: url(../img/vip/2682DBA000034937BB93B258E8A824B1.png) center center no-repeat;
+}
+.nav .middle .fl:nth-child(4) a{
+  color:#4F8DFE;
+}
+

@@ -1,0 +1,36 @@
+.nav_box{
+  background: #fff;
+  box-shadow: 0 0 20px 10px rgba(221, 221, 221, .5);
+}
+/*中间内容样式*/
+.nav .middle .fl a{
+  color:#161616;
+}
+.search .s_area{
+  background: #4F8DFE;
+}
+.search .s_area input{
+  background: #4F8DFE;
+  color: #CADCFE;
+}
+.fl div input::-webkit-input-placeholder{
+   color:#CADCFE;
+ }
+.fl div input:-moz-placeholder {
+  color:#CADCFE;
+}
+.fl div input:-ms-input-placeholder{
+  color:#CADCFE;
+}
+.search .s_icon{
+  background: #4F8DFE;
+}
+/*login样式*/
+.ul_reg a{
+  color:#161616;
+  font-size: 14px;
+}
+.ul_reg li{
+  margin-top: 25px;
+  padding-left: 13px;
+}
